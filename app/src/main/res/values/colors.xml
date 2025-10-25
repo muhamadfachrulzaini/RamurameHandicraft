@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="terracotta">#FFD4886D</color>
+    <color name="terracotta_dark">#FFA16955</color>
+    <color name="terracotta_light">#FFE8B49A</color>
+
+    <!-- Secondary Colors -->
+    <color name="warm_orange">#FFE67E50</color>
+    <color name="brown_dark">#FF5C4033</color>
+    <color name="cream_light">#FFFFF8F0</color>
+
+    <!-- Status Colors -->
+    <color name="pending_yellow">#FFFFC107</color>
+    <color name="in_progress_blue">#FF2196F3</color>
+    <color name="ready_green">#FF4CAF50</color>
+    <color name="shipping_purple">#FF9C27B0</color>
+    <color name="completed_green">#FF43A047</color>
+    <color name="cancelled_red">#FFF44336</color>
+
+    <!-- Neutral Colors -->
+    <color name="surface">#FFFFFBF7</color>
+    <color name="background">#FFFFF8F0</color>
+    <color name="text_primary">#FF3E2723</color>
+    <color name="text_secondary">#FF6D4C41</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFF8F0</color>
+    <color name="black">#FF000000</color>
+    <color name="brown_dark">#FF5C4033</color>
+    <color name="cancelled_red">#FFF44336</color>
+    <color name="completed_green">#FF43A047</color>
+    <color name="cream_light">#FFFFF8F0</color>
+    <color name="in_progress_blue">#FF2196F3</color>
+    <color name="pending_yellow">#FFFFC107</color>
+    <color name="ready_green">#FF4CAF50</color>
+    <color name="shipping_purple">#FF9C27B0</color>
+    <color name="surface">#FFFFFBF7</color>
+    <color name="terracotta">#FFD4886D</color>
+    <color name="terracotta_dark">#FFA16955</color>
+    <color name="terracotta_light">#FFE8B49A</color>
+    <color name="text_primary">#FF3E2723</color>
+    <color name="text_secondary">#FF6D4C41</color>
+    <color name="warm_orange">#FFE67E50</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="all_orders">Semua Order</string>
+    <string name="app_name">Ramurame Handicraft</string>
+    <string name="back">Kembali</string>
+    <string name="cancel">Batal</string>
+    <string name="change_status">Ubah Status</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="custom_notes">Catatan Custom</string>
+    <string name="customer_info">Informasi Customer</string>
+    <string name="customer_name">Nama</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="estimated_completion">Estimasi Selesai</string>
+    <string name="filter_by_status">Filter Status</string>
+    <string name="main_menu">Menu Utama</string>
+    <string name="no_orders_found">Tidak ada order ditemukan</string>
+    <string name="no_orders_today">Belum ada order hari ini</string>
+    <string name="order_date">Tanggal Order</string>
+    <string name="order_detail">Detail Order</string>
+    <string name="orders_list">Daftar Orderan</string>
+    <string name="phone_number">No. HP</string>
+    <string name="print_invoice">Print Invoice</string>
+    <string name="product_list">Daftar Produk</string>
+    <string name="recent_orders">Order Terbaru Hari Ini</string>
+    <string name="refresh">Refresh</string>
+    <string name="select_new_status">Pilih status baru untuk order ini:</string>
+    <string name="shipping_address">Alamat</string>
+    <string name="status_cancelled">Dibatalkan</string>
+    <string name="status_completed">Selesai</string>
+    <string name="status_in_progress">Proses Pengerjaan</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_ready_to_ship">Siap Dikirim</string>
+    <string name="status_shipping">Dalam Pengiriman</string>
+    <string name="status_timeline">Timeline Status</string>
+    <string name="today_orders">Order Hari Ini</string>
+    <string name="today_revenue">Pendapatan Hari Ini</string>
+    <string name="total_orders">Total: %d order</string>
+    <string name="total_value">Total Nilai: %s</string>
+    <string name="update_status">Ubah Status Order</string>
+    <string name="view_detail">Lihat Detail</string>
+    <style name="Theme.RamurameHandicraft" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/terracotta</item>
+    </style>
+</resources>

@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalMaterial3Api::class)
+
 package com.ramurame.handicraft.presentation.orders
 
 import androidx.compose.foundation.background
@@ -22,7 +24,6 @@ import com.ramurame.handicraft.util.DateFormatter
 /**
  * Orders List Screen - Halaman daftar orderan
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun OrdersScreen(
     onNavigateBack: () -> Unit,

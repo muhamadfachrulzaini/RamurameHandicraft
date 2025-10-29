@@ -6,8 +6,9 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.ramurame.handicraft.presentation.dashboard.DashboardScreen
+import com.ramurame.handicraft.presentation.dashboard.NewDashboardScreen
 import com.ramurame.handicraft.presentation.detail.OrderDetailScreen
+import com.ramurame.handicraft.presentation.orders.OrderManagementScreen
 import com.ramurame.handicraft.presentation.orders.OrdersScreen
 
 /**
@@ -24,17 +25,24 @@ fun RamurameNavGraph(
     ) {
         // Dashboard Screen
         composable(route = Screen.Dashboard.route) {
-            DashboardScreen(
-                onNavigateToOrders = {
-                    navController.navigate(Screen.Orders.route)
-                },
-                onNavigateToOrderDetail = { orderId ->
-                    navController.navigate(Screen.OrderDetail.createRoute(orderId))
+            NewDashboardScreen(
+                onNavigateToOrderList = {
+                    navController.navigate(Screen.OrderManagement.route)
                 }
             )
         }
 
-        // Orders List Screen
+        // Order Management Screen
+        composable(route = Screen.OrderManagement.route) {
+            OrderManagementScreen(
+                onNavigateToDetail = { orderId ->
+                    navController.navigate(Screen.OrderDetail.createRoute(orderId))
+                },
+                onOpenDrawer = { /* TODO: Handle drawer */ }
+            )
+        }
+
+        // Orders List Screen (Legacy)
         composable(route = Screen.Orders.route) {
             OrdersScreen(
                 onNavigateBack = {

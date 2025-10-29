@@ -77,6 +77,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.activity:activity-compose:1.8.2")
     implementation("androidx.navigation:navigation-compose:2.7.6")
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.32.0")
 
     // Room Database
     val roomVersion = "2.6.1"
@@ -101,6 +102,10 @@ dependencies {
 
     // DataStore for preferences
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // For build.gradle.kts (Kotlin)
+    implementation("androidx.compose.material:material-icons-extended:1.6.1")
+
 
     // Testing
     testImplementation("junit:junit:4.13.2")

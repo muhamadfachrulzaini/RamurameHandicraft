@@ -6,6 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.outlined.AttachMoney
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -77,6 +78,7 @@ fun DashboardScreen(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DashboardContent(
     uiState: DashboardUiState,
@@ -107,7 +109,7 @@ fun DashboardContent(
             SummaryCard(
                 title = "Pendapatan Hari Ini",
                 value = CurrencyFormatter.formatToRupiah(uiState.todayRevenue),
-                icon = Icons.Default.AttachMoney,
+                icon = Icons.Outlined.AttachMoney,
                 backgroundColor = WarmOrange,
                 modifier = Modifier.weight(1f)
             )
@@ -199,6 +201,7 @@ fun DashboardContent(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SummaryCard(
     title: String,
@@ -279,6 +282,7 @@ fun ActionButton(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun RecentOrderCard(
     order: Order,
